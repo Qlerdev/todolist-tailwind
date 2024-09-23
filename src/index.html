@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/src/output.css" rel="stylesheet" />
+    <link href="/src/input.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-gradient-to-r from-sky-400 h-screen flex justify-center items-center">
+    <div class="container mt-3">
+      <h1 class="font-bold text-9xl text-blue-600 pt-8">Just do it.</h1>
+      <div class="flex">
+        <input type="text" name="" id="task-box" class="task-box" placeholder="Add a task" />
+        <button class="submit-btn" id="submit-btn">Add</button>
+      </div>
+      <p class="font-bold text-xl pt-5">Date/Time : <span id="datetime"></span></p>
+      <div class="display-act" id="display-act"></div>
+      <div class="task flex" id="taskbox">
+        <p>Play games</p>
+        <button class="" id="done"><i class="fa-solid fa-check"></i></button>
+        <button class="" id="delete"><i class="fa-solid fa-trash"></i></button>
+      </div>
+    </div>
+    <script src="../app.js"></script>
+  </body>
+</html>

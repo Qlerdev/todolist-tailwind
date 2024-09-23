@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+
+.container .task-box {
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  border-radius: 2rem 0 0 2rem;
+  padding-left: 2rem;
+}
+
+.container .submit-btn {
+  background-color: blue;
+  width: 5rem;
+  height: 4rem;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.container input:active {
+  border: none;
+}
+
+.container h1 {
+  padding-bottom: 2rem;
+}
