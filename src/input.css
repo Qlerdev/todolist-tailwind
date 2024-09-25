@@ -11,7 +11,7 @@ html {
   border-radius: 2rem;
   font-size: 2rem;
   border-radius: 2rem 0 0 2rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .submit-btn {
@@ -21,9 +21,9 @@ html {
   border-radius: 0 2rem 2rem 0;
   font-size: 2rem;
   color: white;
-  padding-right: .2rem;
+  padding-right: 0.2rem;
 }
-.submit-btn:hover{
+.submit-btn:hover {
   background-color: #2947bc;
 }
 
@@ -63,4 +63,8 @@ html {
 .task .done:hover,
 .task .delete:hover {
   background-color: #203db3;
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
