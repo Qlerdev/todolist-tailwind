@@ -44,6 +44,8 @@ html {
   align-items: center;
   border-radius: 5rem;
   padding: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .task p {
